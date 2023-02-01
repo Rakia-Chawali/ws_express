@@ -1,0 +1,43 @@
+ <style>
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Arvo&family=Bitter:wght@300&family=Boogaloo&family=Courgette&family=Dancing+Script:wght@400;500;600&family=Dosis:wght@200&family=Libre+Franklin:wght@200&family=Lobster&family=Martian+Mono&family=Noto+Sans:wght@300&family=Oswald&family=Pacifico&family=Roboto:wght@100;500&family=Source+Serif+Pro:wght@300&display=swap');
+</style>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ h1{
+    color: brown;
+}
+li{
+text-align: center;
+justify-content: space-between;
+}
+a{
+    font-size: larger;
+}
+a:hover {
+    background-color: darkgrey;
+}
+body{ 
+background-image: url("https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwyMTA3Njd8fGVufDB8fHx8&w=1000&q=80" );
+background-size: cover; 
+}
+.service-item {
+ background-color: black;
+}
+.title{
+  font-family: 'Courgette', cursive;;
+  color: beige;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 80px;
+}
+.title-2{
+  color: darkcyan;
+}
+p{
+  background-color: dimgray;
+}
+.span1{
+font-family: 'Courgette', cursive;;
+}
+.span2{
+  font-family: 'Arvo', serif;;
+}
