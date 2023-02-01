@@ -7,7 +7,7 @@ app.use("/public", express.static(path.join(__dirname, "public")));
 app.engine("handlebars", exphbs.engine());
 app.set("view engine", "handlebars");
 // building middleware
-/*const verifyTime = (req, res, next) => {
+const verifyTime = (req, res, next) => {
   const currentHour = new Date().getHours();
   if (currentHour < 9 || currentHour >= 17) {
     return res
@@ -18,7 +18,7 @@ app.set("view engine", "handlebars");
 }; 
 
 app.use(verifyTime); 
-*/
+
 
 //routing
 app.get("/", (req, res) => {
